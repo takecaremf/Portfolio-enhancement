@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    opacity: 90%;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a {
+    background-color:black;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 94%;
+    color: black;
+  }
+  
+  .main {
+    background-color: gray;
+    opacity: 80%;
+    float: left;
+    width: 58%;
+    padding: 0 20px;
+    margin-top: 7px;
+    text-align: left;
+    color:black;
+  }
+  
+  .right {
+    background-color: gray;  
+    opacity: 90%;
+    float: right;
+    width: 18%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    color: black;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }

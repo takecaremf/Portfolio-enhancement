@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\User\OneDrive\Desktop\HTML\Portfolio Enhancement\Css Extention\index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body style="font-family: Verdana; color: black;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Mark Omega</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="pages/About-me.html">About me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact me</a>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" placeholder="Enter the subject">
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://linktr.ee/markomega">Socials</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <ol class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ol>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/6546df149659985.646f0d38b9626.jpg"
+          alt="Roxas City" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/3aadfb149690329.646f0fdcca0a0.jpg"
+          alt="Antique" class="d-block w-100">
+      </div>
+       <div class="carousel-item">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c54516149657833.62eb5912ebddb.png"
+          alt="Perlas" class="d-block w-100">
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <p style="text-align: center;"><a href="#top">Back to Top</a></p>
+  <div style="background-color: #343A40; color: white; text-align: center; padding: 10px; margin-top: 7px;">&copy; 2023 Mark Omega</div>
+
+</body>
+
+</html>

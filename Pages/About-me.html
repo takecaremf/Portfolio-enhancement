@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\User\OneDrive\Desktop\HTML\Portfolio Enhancement\Css Extention\index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .banner-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body style="font-family: Verdana; color: black;">
+
+  <img src="https://mir-s3-cdn-cf.behance.net/9b72eafca987d600ea7c559584efde2f/11cde6c6-0c5c-466c-a746-b2f732537b08_rwc_195x0x2873x410x3200.jpg?h=bc4e0c3cb5a5406ee8307cf014e77e57" alt="Banner Image" class="banner-image">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="nav-link" href="../index.html">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="C:\Users\User\OneDrive\Desktop\HTML\Portfolio Enhancement\index.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://linktr.ee/markomega">My Socials</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject:</label>
+              <input type="text" class="form-control" id="subject" placeholder="Enter the subject">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <h1>Mark Omega</h1>
+    <p>(b. 1986, Abu Dhabi, U.A.E) is a project-based experimental sound artist. As a sound producer and technical director, he was a member of the curatorial team for new media of the Visayas Islands Visual Arts Exhibition and Conference (VIVA ExCon) 2018 in Capiz; and, technical coordinator for the Jejak-Tabi Exchange: Wandering Asian Contemporary Performances 2020 in Roxas. As a sound artist, he has performed in WSK X: Festival of the Recently Possible 2019 in Manila; and, participated in A Fly Enters/Immense Breath of the SEA: Residency in Open Contemporary Art Center-Taipei 2021. His current works delve into the field of noise, yet frequently drift into numerous sonic trajectories including free improvisation, dark industrial, drone, minimal, and environmental-ambient sound.</p>
+
+  </div>
+
+  <div style="background-color: #343A40; color: white; text-align: center; padding: 10px; margin-top: 7px;">&copy; 2023 Mark Omega</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
